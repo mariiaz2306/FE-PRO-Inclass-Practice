@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: none;
+}
+
+.header-container{
+    background-color: black;
+    color: white;
+    min-height: 100px;
+   
+}
+.header-container nav{
+    height: 100%;
+}
+.header-container ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+
+
+}
+.header-container > img{
+    width: 50px;
+    height: 50px;
+}
+.main-section{
+    padding: 5% 10%;
+    background:url(/media/Image20231005115918.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section-container{
+    padding: 50px;
+    background: black;
+    color: white;
+    /* display: flex;
+    align-items: center; */
+}
+.section-container h1{
+    color: #fd7d54;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 19.2px;
+  
+   
+}
+h2{
+width: 293px;
+flex-direction: column;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 27px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+font-variant: all-small-caps;
+letter-spacing: 3.24px;
+
+}
+.section-container p{
+    text-align: center;
+    margin-bottom: 38px;
+    color: #FFF;
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; 
+letter-spacing: 0.54px;
+}
+.card-container{
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+}
+.card{
+    border: 2px solid white;
+    max-width: 293px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center; 
+}
+hr{
+    border: none;
+    background-color: white;
+    height: 3px;
+    width: 23px;
+}
+button{
+width: 159px;
+height: 50px;
+justify-content: center;
+color: #41C3F6;
+text-align: center;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+font-variant: all-small-caps;
+letter-spacing: 2.28px;
+background-color: transparent;
+}
